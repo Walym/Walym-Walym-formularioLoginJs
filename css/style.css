@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(31, 31, 31);
+}
+
+label{
+    color: inherit;
+    font-size: 20px;
+    height: 30px;
+    width: 180px;
+}
+
+.boton{
+    margin-top: 10px;
+    height: 30px;
+    width: 175px;
+}
+
+input{
+    display: block;
+}
+
+#contenedor{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
